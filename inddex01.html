@@ -4,26 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <title>prabeer's Portfolio</title>
+    <title>Prabir's Portfolio</title>
     <link rel="icon" href="./assets/Portfolio_Image_Prabir.jpg">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Prabeer Ghosh</div>
+      <div class="logo">Prabir Ghosh</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#Certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">prabeer Ghosh</div>
+      <div class="logo">Prabir Ghosh</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -33,7 +33,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#Certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -41,16 +41,16 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/Portfolio_Image_Prabir.jpg" alt="sourav profile picture" />
+        <img src="assets/Portfolio_Image_Prabir.jpg" alt="sourav profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Prabeer Ghosh</h1>
+        <h1 class="title">Prabir Ghosh</h1>
         <p class="section__text__p2">Product Maneger at Mastercard</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('assets/Screenshot (135).png')"
           >
             Download CV
           </button>
@@ -70,17 +70,12 @@
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/souravlouha'"
+            onclick="location.href='https://github.com/prabeerghosh'"
           />
         </div>
       </div>
       
-      <img
-        src="https://github.com/souravlouha/portfolio_01/assets/130911872/5bff30e1-2d84-46bf-a8ff-a86b0d637758"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#about'"
-      />
+      
 
 
       
@@ -117,7 +112,7 @@
               />
               <h3>Education</h3>
               <p>B.Tech(Informatiomn Technology) from IEM, Kolkata<br />
-              </p>
+                 </p>
             </div>
           </div>
           <div class="text-container">
@@ -137,9 +132,6 @@
         onclick="location.href='./#experience'"
       />
     </section>
-
-
-
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
@@ -344,7 +336,29 @@
                 </div>
               </article>
 
-              
+              <article>
+                <img
+                  src="https://raw.githubusercontent.com/souravlouha/portfolio_01/main/assets/pytorch.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="https://raw.githubusercontent.com/souravlouha/portfolio_01/main/assets/tensorflow.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
 
 
 
@@ -356,128 +370,106 @@
         src="https://github.com/souravlouha/portfolio_01/assets/130911872/5bff30e1-2d84-46bf-a8ff-a86b0d637758"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#Certifications'"
+        onclick="location.href='./#projects'"
       />
       
     </section>
 
 
-    <section id="Certifications">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">Certifications</h1>
-
-      
-      
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Agility_Health_Prabir.png"
-                alt="Project 4"
+                src="https://raw.githubusercontent.com/souravlouha/portfolio_01/main/assets/Screenshot%20(135).png"
+                alt="Project 1"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
-            <h6>Specialization Certificate Google Cybersecurity</h6>
+            <h3>Rrc Autonomous Autobots Robot using Arduino UNO</h3>
+            <h6>"Experienced hands-on robotics enthusns."<br/><br/>.</h6>
             <div class="btn-container">
-              
-              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Azure_Prabir.png"
-                alt="Project 5"
+                src="https://github.com/souravlouha/portfolio_01/assets/130911872/2155e353-86f7-479c-9d36-740cedbc2617"
+                alt="Project 2"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
-            <h6>Introduction to Information Technology and AWS Cloud</h6>
+            <h3>Co-leading in SIH2023 to </h3>
+            <h6>Co-leadinhealthcare<br/><br/><br/><br/>.</h6>
             <div class="btn-container">
-              
-              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Mastering_Emotions_Prabir.png"
-                alt="Project 6"
+                src="https://raw.githubusercontent.com/souravlouha/portfolio_01/main/assets/Untitled%20design.png"
+                alt="Project 3"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
-            <h6>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h6>
+            <h3>Plant disease detection using AIML</h3>
+            <h6>Plant diseasran error. The adve</h6>
             <div class="btn-container">
-              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
         </div>
       </div>
-
-  
-
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/Negotiation_Prabir.png"
-                alt="Project 7"
-                class="project-img"
-              />
-            </div>
-            <h1 class="experience-sub-title project-title"></h1>
-            <h6>Specialization Certificate Google Cybersecurity</h6>
-            <div class="btn-container">
-              
-              
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/PSM1_Prabir.png"
-                alt="Project 8"
-                class="project-img"
-              />
-            </div>
-            <h1 class="experience-sub-title project-title"></h1>
-            <h6>Introduction to Information Technology and AWS Cloud</h6>
-            <div class="btn-container">
-              
-              
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/SAFe_Agilist_Prabir.png"
-                alt="Project 9"
-                class="project-img"
-              />
-            </div>
-            <h1 class="experience-sub-title project-title"></h1>
-            <h6>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h6>
-            <div class="btn-container">
-              
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-
       <img
         src="https://github.com/souravlouha/portfolio_01/assets/130911872/5bff30e1-2d84-46bf-a8ff-a86b0d637758"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
-      
     </section>
+
+    #
 
 
 
@@ -485,74 +477,145 @@
  #
 
     <section id="Certifications">
-      <p class="section__text__p1">.<br>.</p>
-     
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Certifications</h1>
 
-      
+      <p class="section__text__p1">Browse My Recent</p>
       
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/SAFe_POPM_Prabir.png"
-                alt="Project 10"
+                src="assets/PSM1_Prabir.png"
+                alt="Project 4"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
-            <h6>Specialization Certificate Google Cybersecurity</h6>
+            <h5>Specialization Certificate Google Cybersecurity</h5>
             <div class="btn-container">
-              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/ac2b1e54b701c7261be88939e944d2fc'"
+              >
+                Link
+              </button>
               
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Azure_Prabir.png"
-                alt="Project 11"
+                src="assets/SAFe_Agilist_Prabir.png"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h1 class="experience-sub-title project-title"></h1>
+            <h5>Introduction to Information Technology and AWS Cloud</h5>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/9aaa949e31416426ea649a456b41fdb8'"
+              >
+                Link
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/Negotiation_Prabir.png"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h1 class="experience-sub-title project-title"></h1>
+            <h5>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h5>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Links
+
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/PSM1_Prabir.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h1 class="experience-sub-title project-title"></h1>
+            <h5>Specialization Certificate Google Cybersecurity</h5>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/ac2b1e54b701c7261be88939e944d2fc'"
+              >
+                Link
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/SAFe_Agilist_Prabir.png"
+                alt="Project 5"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
             <h6>Introduction to Information Technology and AWS Cloud</h6>
             <div class="btn-container">
-              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/9aaa949e31416426ea649a456b41fdb8'"
+              >
+                Link
+              </button>
               
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Mastering_Emotions_Prabir.png"
-                alt="Project 12"
+                src="assets/Negotiation_Prabir.png"
+                alt="Project 6"
                 class="project-img"
               />
             </div>
             <h1 class="experience-sub-title project-title"></h1>
-            <h6>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h6>
+            <h5>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h5>
             <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Links
+
+              </button>
               
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
 
-
-      
-     
-
-      
-      
-      
-
-  
-
-      
-
-    
 
 
       <img
@@ -596,13 +659,13 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            
-            <li><a href="#Certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169;2024 prabeerghosh . All Rights Reserved.</p>
+      <p>Copyright &#169;2024 Prabir Ghosh. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>

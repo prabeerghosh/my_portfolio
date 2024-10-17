@@ -207,6 +207,12 @@ section {
   gap: 1rem;
 }
 
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
 /* ICONS */
 
 .icon {
@@ -356,7 +362,7 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+#Certifications {
   position: relative;
 }
 
@@ -366,9 +372,9 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
-  height: 90%;
+  height: 0%;
 }
 
 .project-title {
